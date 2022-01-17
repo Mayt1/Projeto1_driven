@@ -1,0 +1,272 @@
+body {
+    font-family: "Encode Sans", sans-serif;
+    position: relative;
+    width: 1600px;
+    height: 1080px;
+    background-color: #ffffff;
+  }
+  
+  a {
+    color: inherit;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
+  /* header page*/
+  .header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoGlobo {
+    width: 171px;
+    height: 40px;
+  }
+    /* line */
+  .nav-bar-division {
+    height: 1px;
+    background-color: #f5f6f7;
+  }
+    /* nav-bar */
+  .nav-bar {
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    margin-left: 170px;
+    margin-right: 240px;
+    align-items: center;
+  }
+  .nav-bar a:hover {
+      opacity: 0.8;
+  }
+  /* icones da nav-bar */
+  .g1 {
+    color: #c3170c;
+  }
+
+  .oglobo {
+    color: #1e4b9b;
+  }
+  
+  .valor {
+    color: #006766;
+  }
+  
+  .ge {
+    color: #07aa47;
+  }
+  
+  .cartola {
+    color: #e3662b;
+  }
+  
+  .globoplay {
+    color: #fb0735;
+  }
+ 
+  .dropz {
+    color: #ff75bb;
+  }
+  
+  .gshow {
+    color: #ec7d00;
+  }
+
+  .quem {
+    color: #323333;
+  }
+  
+  .receitas {
+    color: #a81d83;
+  }
+
+    /* espaço pre noticias*/
+  .space-pre-content {
+      margin-top: 34px;
+  }
+    /*inicio do corpo de noticias*/
+ 
+  .main-area {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-content {
+    width: 1250px;
+    display: flex;
+  }
+  .main-content a:hover {
+      opacity: 0.8;
+  }
+  .main-content p:hover {
+      opacity: 0.8;
+  }
+  /* materia principal do lado esquerdo */
+  .materia-principal {
+    color: #c4160c;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 67px;
+    line-height: 103%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: -1%;
+    margin-top: 9px;
+    margin-bottom: 29px;
+    width: 624px;
+  }
+  
+  .materia-secundaria {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: #303134;
+  }
+  
+  .borda-noticias{
+    height: 1px;
+    width: 624px;
+    background-color: #ebedef;
+    fill: solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  /* */
+
+  .materias-destaque {
+    display: flex;
+  }
+  
+  .materias-destaque img {
+    margin-right: 24px;
+    margin-bottom: 11px;
+  }
+  
+  .painel-esquerdo img {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+  }
+  
+  .materias {
+    width: 193px;
+    margin-right: 24px;
+  }
+  
+  .preview {
+    font-style: medium;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: -2%;
+    color: #c4170c;
+    margin-bottom: 6px;
+  }
+
+  .noticia {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: -4.5%;
+    fill: solid;
+    color: #2f3134;
+    margin-bottom: 10px;
+  }
+  
+  .noticia-descricao {
+    font-style: regular;
+    font-size: 14px;
+    line-height: 19px;
+    line-height: 109%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: -4.8%;
+    fill: solid;
+    color: #2f3134;
+    margin-bottom: 11px;
+  }
+  
+  .painel-esquerdo img:last-child {
+    margin-right: 36px;
+  }
+    /* divisoria */
+  .divisoria {
+    width: 1px;
+    height: 845px;
+    border-left: 1px solid #ebedef;
+    fill: solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+    /* noticias do lado direito*/
+  .painel-direito {
+    display: flex;
+    text-align: start;
+    justify-content: start;
+  }
+  
+  .painel-direito img {
+    height: 128px;
+    width: 240px;
+    border-radius: 12px;
+    margin-bottom: 11px;
+  }
+  
+  .noticias-esporte div {
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 240px;
+  }
+
+  .noticias-esporte .preview {
+    color: #16ae54;
+    margin-bottom: 6px;
+  }
+  
+  .noticias-esporte .noticia-descricao {
+    margin-top: 4px;
+    margin-bottom: 39px;
+  }
+  
+  .margin-42 {
+    margin-top: 50px;
+  }
+  /*lado do gshow*/
+  .noticias-gshow div {
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 240px;
+  }
+
+  .noticias-gshow .preview {
+    color: #ec8006;
+    margin-bottom: 6px;
+  }
+  
+  .noticias-gshow div:first-child {
+    margin-bottom: 35px;
+  }
+  
+  .noticias-gshow div:nth-child(even) {
+    margin-bottom: 50px;
+  }
+  
+  .noticias-gshow p:first-child {
+    margin-bottom: 9px;
+  }
+  
